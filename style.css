@@ -1,0 +1,79 @@
+.bloco-1 {
+    background-color: lightgreen;
+    height: 148px;
+    width: 148px;
+    text-align: center; 
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: 11px;
+
+}
+.bloco-2 {
+    background-color: brown;
+    height: 148px;
+    width: 148px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: 11px;
+
+}
+.bloco-3 {
+    background-color: black;
+    height: 148px;
+    width: 148px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: 11px;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+
+   /* indiferente */
+   background-color: blue;
+   padding: 12px;
+   height: 478px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+
+   /* indiferente */
+   background-color: blue;
+   padding: 12px;
+   height: 478px;
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+
+   /* indiferente */
+   background-color: blue;
+   padding: 12px;
+   height: 478px;
+}
+
+.container-column-reverse {
+    display: flex;
+    flex-direction:column-reverse;
+
+   /* indiferente */
+   background-color: blue;
+   padding: 12px;
+   height: 478px;
+}
+
+.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+
+   /* indiferente */
+   background-color: blue;
+   padding: 12px;
+   height: 478px;
+}
